@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UsersMaster.master.cs" Inherits="NeIzlesem.UsersMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Assets/fontawesome/css/all.min.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        body{
+            background-color:#0D1117;
+            height:5000px
+        }
+        .nav-link{
+            
+            position:relative;
+            color:white !important;
+        }
+        
+        .nav-link::after{
+             content:"";
+            opacity:0;
+            transition:all 0.4s;
+            height:2px;
+            width:100%;
+            background-color:greenyellow;
+            position:absolute;
+            bottom:0;
+            left:0;
+        }
+        .nav-link:hover::after{
+           
+            opacity:1;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+         
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#">
+                    <div style="font-family: 'Sigmar', cursive; position: relative;">Ne İzlesem?</div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <div style="left:575px; position:absolute; font-family:Calibri">
+                        <ul class="navbar-nav" style="font-family:Calibri; color:white">
+
+                            <li class="nav-item"><a href="#" class="nav-link">Main</a></li>
+                            <li class="nav-item" style="margin-left: 30px"><a href="#" class="nav-link">communication</a></li>
+                            <li class="nav-item" style="margin-left: 30px"><a href="#" class="nav-link">Informations</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+       <main>
+       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+</asp:ContentPlaceHolder>
+           </main>
+            
+    </form>
+    <script src="../Scripts/bootstrap.bundle.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+
+    <script src="../Assets/fontawesome/js/all.min.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,6 @@
+C:\Users\ozano\source\repos\NeIzlesem\DataModel\bin\Debug\DataModel.dll
+C:\Users\ozano\source\repos\NeIzlesem\DataModel\bin\Debug\DataModel.pdb
+C:\Users\ozano\source\repos\NeIzlesem\DataModel\obj\Debug\DataModel.csproj.AssemblyReference.cache
+C:\Users\ozano\source\repos\NeIzlesem\DataModel\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
+C:\Users\ozano\source\repos\NeIzlesem\DataModel\obj\Debug\DataModel.dll
+C:\Users\ozano\source\repos\NeIzlesem\DataModel\obj\Debug\DataModel.pdb
