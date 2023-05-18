@@ -17,6 +17,8 @@ namespace NeIzlesem
             rp_ımdbtop5.DataBind();
             rp_ımdbneizlesemtop5.DataSource = df.ListMoviesNeIzlesemTop5();
             rp_ımdbneizlesemtop5.DataBind();
+            rp_allmovies.DataSource = df.ListMovies();
+            rp_allmovies.DataBind();
         }
     }
 }

@@ -38,6 +38,11 @@ namespace NeIzlesem.AdminPanel
                         fu_image.SaveAs(Server.MapPath("~/Images/" + name + ext));
                         if (df.AddMovies(m))
                         {
+                           
+                            tb_name.Text = "";
+                            tb_imdb.Text = "";
+                            textbox_full.Text = "";
+                            fi.Delete();
                             pnl_success.Visible = true;
                             pnl_error.Visible = false;
                         }

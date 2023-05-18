@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminPanel/MasterPage.Master" AutoEventWireup="true" CodeBehind="AddMovies.aspx.cs" Inherits="NeIzlesem.AdminPanel.AddMovies" %>
+﻿<%@ Page Title="Add Movies-Ne Izlesem?" Language="C#" MasterPageFile="~/AdminPanel/MasterPage.Master" AutoEventWireup="true" CodeBehind="AddMovies.aspx.cs" Inherits="NeIzlesem.AdminPanel.AddMovies" ValidateRequest="false" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="../Assets/ckeditor/ckeditor.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

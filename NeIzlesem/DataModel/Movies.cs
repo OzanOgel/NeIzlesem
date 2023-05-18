@@ -10,7 +10,7 @@ namespace DataModel
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public string summary { get; set; }
+         public string summary { get; set; }
         public double ImdbScore { get; set; }
         public double score { get; set; }
         public string ImagePath { get; set; }
